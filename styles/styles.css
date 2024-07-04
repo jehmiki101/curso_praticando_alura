@@ -66,6 +66,10 @@ body {
     font-size: 1rem;
 }
 
+.container__botao:hover {
+    background-color: var(--cor-vermelho);
+}
+
 .botao_secundario {
     background-color: transparent;
     border: 1px solid var(--branco-principal);
@@ -132,4 +136,48 @@ body {
 .lista__item {
     font-size: 2rem;
     color: var(--branco-principal);
+}
+
+.rodape {
+    text-align: center;
+    margin: 1rem;
+    margin-top: 9rem;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    box-sizing:border-box;
+    margin: 1rem;
+    gap:1rem;
+
+}
+
+.lista__link__texto {
+    font-size: 1rem;
+    color: var(--branco-principal);
+    text-decoration: none;
+}
+
+.lista__link a:hover {
+    color: var(--cor-vermelho);
+}
+
+.lista__link a:active {
+    color: var(--botao-azul);
+}
+
+.rodape__texto {
+    font-size: 0.8rem;
+    color: var(--cinza-secundario);
+    margin: 1rem;
+    margin-top:1.5rem;
+}
+
+.rodape__textodois {
+    font-size: 0.8rem;
+    color: var(--cinza-secundario);
+    margin-bottom: 6rem;
+
 }
